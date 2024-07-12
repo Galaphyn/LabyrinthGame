@@ -1,0 +1,103 @@
+[gd_scene load_steps=8 format=3 uid="uid://dcpxnx7dgdyb"]
+
+[ext_resource type="Texture2D" uid="uid://u83sw21fy8mp" path="res://Textures/Tiles/StoneBricks01.png" id="1_mt2qk"]
+[ext_resource type="Texture2D" uid="uid://7tnplsef0hh0" path="res://Textures/Tiles/TotallyGround.png" id="2_0dap4"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_82p2r"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_04psp"]
+texture = ExtResource("1_mt2qk")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:0/0/physics_layer_0/angular_velocity = 0.0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0 = 0
+2:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:0/0/physics_layer_0/angular_velocity = 0.0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:0/0 = 0
+3:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:0/0/physics_layer_0/angular_velocity = 0.0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:1/0 = 0
+0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:1/0/physics_layer_0/angular_velocity = 0.0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:1/0 = 0
+1:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:1/0/physics_layer_0/angular_velocity = 0.0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:1/0 = 0
+2:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:1/0/physics_layer_0/angular_velocity = 0.0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:1/0 = 0
+3:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:1/0/physics_layer_0/angular_velocity = 0.0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:2/0 = 0
+0:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:2/0/physics_layer_0/angular_velocity = 0.0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:2/0 = 0
+1:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:2/0/physics_layer_0/angular_velocity = 0.0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:2/0 = 0
+2:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:2/0/physics_layer_0/angular_velocity = 0.0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:2/0 = 0
+3:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:2/0/physics_layer_0/angular_velocity = 0.0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:3/0 = 0
+0:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:3/0/physics_layer_0/angular_velocity = 0.0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:3/0 = 0
+1:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:3/0/physics_layer_0/angular_velocity = 0.0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:3/0 = 0
+2:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+2:3/0/physics_layer_0/angular_velocity = 0.0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:3/0 = 0
+3:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+3:3/0/physics_layer_0/angular_velocity = 0.0
+3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_4u1ia"]
+physics_layer_0/collision_layer = 1
+physics_layer_0/physics_material = SubResource("PhysicsMaterial_82p2r")
+sources/0 = SubResource("TileSetAtlasSource_04psp")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ali11"]
+texture = ExtResource("2_0dap4")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_y7igp"]
+sources/0 = SubResource("TileSetAtlasSource_ali11")
+
+[node name="PlayerSpawnRoom" type="Node2D"]
+
+[node name="WallTiles" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_4u1ia")
+format = 2
+layer_0/tile_data = PackedInt32Array(-65540, 65536, 1, 196604, 65536, 3, -131075, 65536, 1, 262141, 65536, 3, -196610, 65536, 1, 327678, 65536, 3, -262143, 65536, 0, 262145, 65536, 0, -196606, 65536, 3, 196610, 65536, 1, -131069, 65536, 3, 131075, 65536, 1, -4, 0, 3, 131068, 0, 1, -65539, 196608, 3, 196605, 196608, 1, -131074, 196608, 3, 262142, 196608, 1, -196609, 196608, 0, 327679, 196608, 0, -262142, 196608, 1, 262146, 196608, 3, -196605, 196608, 1, 196611, 196608, 3, -131068, 196608, 1, -65532, 0, 3, 65540, 0, 1, 131076, 196608, 3, 65532, 65537, 1, 65533, 65537, 1, -3, 65537, 1, 131069, 65537, 1, 131070, 65537, 1, 65534, 65537, 1, -2, 65537, 1, -65538, 65537, 1, 196606, 65537, 1, 196607, 65537, 1, 131071, 65537, 1, 65535, 65537, 1, -1, 65537, 1, -65537, 65537, 1, -131073, 65537, 1, 262143, 65537, 1, 196608, 65537, 1, 131072, 65537, 1, 65536, 65537, 1, 0, 65537, 1, -65536, 65537, 1, -131072, 65537, 1, -196608, 65537, 1, -131071, 65537, 1, -196607, 65537, 1, -65535, 65537, 1, 1, 65537, 1, 65537, 65537, 1, 131073, 65537, 1, 196609, 65537, 1, 262144, 65537, 1, 131074, 65537, 1, 65538, 65537, 1, 2, 65537, 1, -65534, 65537, 1, -131070, 65537, 1, -65533, 65537, 1, 3, 65537, 1, 65539, 65537, 1, 4, 65537, 1, -262144, 65537, 1)
+
+[node name="FloorTiles" type="TileMap" parent="."]
+texture_filter = 2
+tile_set = SubResource("TileSet_y7igp")
+format = 2
+layer_0/tile_data = PackedInt32Array(262144, 65536, 1, 196608, 65536, 1, 262143, 65536, 1, 196609, 65536, 1, 131073, 65536, 1, 65537, 65536, 1, 65536, 65536, 1, 131071, 65536, 1, 196607, 65536, 1, 131072, 65536, 1, 196606, 65536, 1, 131070, 65536, 1, 131069, 65536, 1, 65533, 65536, 1, 65532, 65536, 1, -3, 65536, 1, -2, 65536, 1, 65534, 65536, 1, -65538, 65536, 1, -65537, 65536, 1, -131072, 65536, 1, -65536, 65536, 1, -1, 65536, 1, 65535, 65536, 1, 0, 65536, 1, -65535, 65536, 1, -131071, 65536, 1, 1, 65536, 1, 2, 65536, 1, -65534, 65536, 1, -131070, 65536, 1, 65538, 65536, 1, 131074, 65536, 1, 65539, 65536, 1, 3, 65536, 1, -65533, 65536, 1, 4, 65536, 1, -196607, 65536, 1, -196608, 65536, 1, -131073, 65536, 1, -262144, 65536, 1)

@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://rbecn8i3ah36"]
+
+[ext_resource type="Script" path="res://Player/player.gd" id="1_3xkst"]
+[ext_resource type="Texture2D" uid="uid://b7kptr60kmpc8" path="res://Textures/Player/SkeletonMan.png" id="1_s2j6b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qwcav"]
+size = Vector2(12, 40)
+
+[node name="Player" type="CharacterBody2D"]
+scale = Vector2(0.2, 0.2)
+motion_mode = 1
+script = ExtResource("1_3xkst")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_s2j6b")
+hframes = 3
+frame = 2
+
+[node name="walkTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(8, 8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.19209e-07, -1)
+shape = SubResource("RectangleShape2D_qwcav")
